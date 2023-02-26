@@ -36,8 +36,10 @@ function osp_paste(event)
 					count = count
 				}
 
-				destination.set_request_slot(request, i)
-				i = i + 1
+				if (ingredient.type == 'item') then
+					destination.set_request_slot(request, i)
+					i = i + 1
+				end
 			end
 		end
 	end
