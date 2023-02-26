@@ -1,0 +1,11 @@
+{
+    "name": "osha_smarter_pasting",
+    "version": "0.0.1",
+    "title": "OSHA Smarter Pasting",
+    "author": "OSHA-Jackson",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1", "(?) space-exploration", "(?) aai-containers"],
+    "description": "Makes copy/pasting to inserters and requester chests a little more intelligent and intuitive"
+}
